@@ -38,7 +38,8 @@
 ```js
 @String Api.translate(String source, String target, String text)
 ```
-> 파파고에서 `source`로 작성된 `text`라는 텍스트를 `target`으로 변역하여 반환합니다. API 사용 설정이 필요합니다.
+> 파파고에서 `text`라는 텍스트를 `target`으로 변역하여 반환합니다.<br>
+※ 어플 설정에서 API 사용 설정이 필요합니다. ※
 
 # Clock
 ```js
