@@ -12,7 +12,7 @@
 -----
 
 ## 설명
-새자봇(새로운 자동응답 봇)은 메신저 자동 답장 봇 입니다. 
+새자봇(새로운 자동응답 봇)은 메신저 자동 답장 봇 입니다.<br>
 반응할 채팅과 대답할 말을 설정하기 위해 코딩이 필요합니다.<br>
 지원하는 언어는 총 3가지로 자바스크립트, 커피스크립트, 루아스크립트가 있습니다.<br>
 추가로 코딩이 필요 없는 단순 자동 응답 키워드 설정도 지원 합니다.
@@ -49,8 +49,8 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, package) {
 replier.reply(@String content) : content를 Action이 replier인 방으로 보냄
 
 @ImageDB
-ImageDB.getProfileImage() : 메세지를 보낸 상대방의 프로필 사진을 Base64로 인코딩해서 리턴
-ImageDB.getPicture() : 받은 사진을 Base64로 인코딩해서 리턴. 단 받은지 3분이 안된 사진들 한정 작동. (Default : null)
+ImageDB.getProfileImage() : 카카오톡에서 메세지를 받은 상대방의 프로필 사진을 Base64로 인코딩해서 리턴
+ImageDB.getPicture() : 카카오톡에서 가장 마지막으로 받은 사진을 Base64로 인코딩해서 리턴. (Default : null)
 ```
 
 ## 자바스크립트 작성 예시
