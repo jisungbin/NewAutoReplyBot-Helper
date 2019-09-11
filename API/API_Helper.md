@@ -7,9 +7,9 @@ It is a picture send API in New Kakaotalk Bot 2.
 1. 개발자 모드 활성화 [[참고 링크]](https://androidsfactory.com/310)
 2. 개발자 옵션에서 포인터 위치표시 활성화
 3. 아래 이미지 처럼 화면 상단에 X좌표와 Y좌표 표시 되는지 확인 (Xv와 Yv가 아니라 X와 Y)
-![Image](https://raw.githubusercontent.com/sungbin5304/New-Kakaotalk-Bot-2/master/IMAGE/xyz.png)
+![Image](https://raw.githubusercontent.com/sungbin5304/NewAutoReplyBot-Helper/master/IMAGE/xyz.png)
 4. ```Image.getXY()``` 실행 후 아래 이미지 처럼 표시되는 화면에서 채팅 버튼 부분, 전송할 채팅방 체크박스 부분, 확인 버튼 부분, ← 버튼 부분의 X, Y 좌표 값을 기록
-![Image](https://raw.githubusercontent.com/sungbin5304/New-Kakaotalk-Bot-2/master/IMAGE/kakaotalk.png)
+![Image](https://raw.githubusercontent.com/sungbin5304/NewAutoReplyBot-Helper/master/IMAGE/kakaotalk.png)
 
 ## 2. 접근성 권한 허용
 안드로이드 설정에서 접근성 → 서비스에서 카카오톡 봇 활성화
