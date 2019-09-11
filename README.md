@@ -43,7 +43,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, package) {
 }
 ```
 
-## 메인함수 인자 설명
+## 메인함수 인자  설명
 ``` JavaScript
 @replier
 replier.reply(@String content) : content를 Action이 replier인 방으로 보냄
