@@ -13,8 +13,8 @@
 
 ## 설명
 새자봇(새로운 자동응답 봇)은 메신저 자동 답장 봇 입니다. 
-반응할 채팅과 대답할 말을 설정하기 위해 코딩이 필요합니다.
-지원하는 언어는 총 3가지로 자바스크립트, 커피스크립트, 루아스크립트가 있습니다.
+반응할 채팅과 대답할 말을 설정하기 위해 코딩이 필요합니다.<br>
+지원하는 언어는 총 3가지로 자바스크립트, 커피스크립트, 루아스크립트가 있습니다.<br>
 추가로 코딩이 필요 없는 단순 자동 응답 키워드 설정도 지원 합니다.
 
 
@@ -26,7 +26,7 @@
 <img src="https://raw.githubusercontent.com/sungbin5304/NewAutoReplyBot-Helper/master/IMAGE/screener_1562496170558.png" width="300" height="500">
 </div>
 
-## 개발자
+## 개발
 ![Image](https://raw.githubusercontent.com/sungbin5304/NewAutoReplyBot-Helper/master/IMAGE/sungbin.png)
 
 ## 메인 함수
