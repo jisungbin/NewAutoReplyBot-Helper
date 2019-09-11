@@ -73,7 +73,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, package) {
 -----
 
 ## API 리스트
-[[API List]](https://github.com/sungbin5304/NewAutoReplyBot-Helper/blob/master/release/API.md)
+[[API List]](https://github.com/sungbin5304/NewAutoReplyBot-Helper/blob/master/API/API.md)
 
 ## 릴리즈 노트
 [[Relase]](https://github.com/sungbin5304/NewAutoReplyBot-Helper/releases)
