@@ -28,7 +28,6 @@
 
 ## 개발자
 ![Image](https://raw.githubusercontent.com/sungbin5304/NewAutoReplyBot-Helper/master/IMAGE/sungbin.png)
-> SungBin
 
 ## 메인 함수
 ``` JavaScript
@@ -71,7 +70,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, package) {
 }
 ```
 
-> [[Kaven 도움말]](https://github.com/sungbin5304/NewAutoReplyBot-Helper/blob/master/release/API_Helper.md#kaven-library)
+-----
 
 ## API 리스트
 [[API List]](https://github.com/sungbin5304/NewAutoReplyBot-Helper/blob/master/release/API.md)
@@ -97,8 +96,6 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, package) {
 
 ### 공식 디스코드 방
 [[Discord]](https://discord.gg/pvnCGwE)
-
------
 
 ### 고마운 분들
 PartWorm, Nenka
