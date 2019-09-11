@@ -1,5 +1,4 @@
-# 2019.03.01 
-## Log
+# Log
 ```js
 @void Log.d(String log)
 ```
@@ -10,11 +9,16 @@
 ```
 > 로그를 에러 모드로 작성합니다.
 
-## Api
+# Api
 ```js
 @Context Api.getContext()
 ```
 > `Context`를 반환해 줍니다.
+
+```js
+@String Api.post(String adress, String data)
+```
+> `adress`에 `data`라는 내용의 post를 전송합니다.
 
 ```js
 @boolean Api.replyRoom(String room, String content)
@@ -36,7 +40,7 @@
 ```
 > 파파고에서 `source`로 작성된 `text`라는 텍스트를 `target`으로 변역하여 반환합니다. API 사용 설정이 필요합니다.
 
-## Clock
+# Clock
 ```js
 @String Clock.normal(boolean isFull)
 ```
@@ -52,7 +56,7 @@
 ```
 > 아날로그 시계를 텍스트 형식으로 만들어서 반환합니다. 시침은 나오지 않습니다.
 
-## Device
+# Device
 ```js
 @String Device.getPhoneModel()
 ```
@@ -78,28 +82,31 @@
 ```
 > 현재 핸드폰이 충전중인지를 반환합니다.
 
-## File
+# File
 ```js
 @String File.getSdcardPath()
 ```
-> 핸드폰의 SD카드 경로를 반환합니다.
+> 핸드폰의 SD카드 경로를 반환합니다.<br>
+※ File.save와 File.read의 path 인자엔 첨부되어 있습니다. ※
 
 ```js
-@String File.read(String name, String _null)
+@void File.save(String path, String content)
 ```
-> `name`이라는 경로에 있는 파일을 읽어서 반환합니다. 만약 파일이 존재하지 않다면 `_null`을 반환합니다.
+> `path`이라는 경로에 `content`라는 내용을 가진 파일을 생성합니다.<br>
+사용 예시 : File.save("BOT/ChatLog.log", "성빈 : 새자봇 많이 써주세요.");
 
 ```js
-@void File.save(String name, String content)
+@String File.read(String path, String _null)
 ```
-> `name`이라는 경로에 `content`라는 내용을 가진 파일을 생성합니다.
+> `path`이라는 경로에 있는 파일을 읽어서 반환합니다. 만약 파일이 존재하지 않다면 `_null`을 반환합니다.<br>
+사용 예시 : File.read("BOT/ChatLog.log", "로그가 없습니다.");
 
 ```js
 @void File.remove(String name)
 ```
 > `name`이라는 경로에 있는 파일을 삭제합니다.
 
-## Utils
+# Utils
 ```js
 @void Utils.makeToast(String content)
 ```
@@ -120,10 +127,7 @@
 ```
 > `content`라는 내용을 복사합니다.
 
-
-# 2019.07.03 업데이트
-
-## Image
+# Image
 ```js
 @void Image.getXY()
 ```
@@ -133,16 +137,12 @@
 @void Image.send(int[] xy, int[] xy2, int[] xy3, int[] xy4, String imagePath)
 --- API를 통한 사용 불가 (API 추가 가능 인자 부적합), Kaven으로 사용 바람 ---
 ```
-> [[참고]](https://github.com/sungbin5304/New-Kakaotalk-Bot-2/blob/master/release/API_Helper.md#picture-transmission-api)
+> [[참고]](https://github.com/sungbin5304/NewAutoReplyBot-Helper/blob/master/API/API_Helper.md#picture-transmission-api)
 
-# 2019.07.07 업데이트
+# Kaven
+> [[참고]](https://github.com/sungbin5304/NewAutoReplyBot-Helper/blob/master/API/API_Helper.md#kaven-library)
 
-## Kaven
-> [[참고]](https://github.com/sungbin5304/New-Kakaotalk-Bot-2/blob/master/release/API_Helper.md#kaven-library)
-
-
-# 2019.07.31 업데이트
-## School
+# School
 ``` js
 @String[] School.getMeal(String area, String name, int year, int month)
 ```
