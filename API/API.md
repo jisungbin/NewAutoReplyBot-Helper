@@ -23,7 +23,8 @@
 ```js
 @boolean Api.replyRoom(String room, String content)
 ```
-> `room`이라는 방에 `content`라는 메세지를 전달합니다. 성공 여부를 반환합니다.
+> `room`이라는 방에 `content`라는 메세지를 전달합니다. 성공 여부를 반환합니다.<br>
+만약 false가 리턴될 경우 `room`이라는 방으로 부터 메세지를 적어도 한개 이상 받아야 합니다.
 
 ```js
 @String Api.getHtml(String adress)
