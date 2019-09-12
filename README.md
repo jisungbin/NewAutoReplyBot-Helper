@@ -1,7 +1,7 @@
 # 새로운 자동응답 봇
 > New Auto-reply Bot
 
-![Image](https://img.shields.io/badge/CHAT%20BOT-New%20AutoReply%20Bot%202-9cf.svg) 
+![Image](https://img.shields.io/badge/CHAT%20BOT-New%20AutoReply%20Bot-9cf.svg) 
 ![Image](https://img.shields.io/badge/Language-JavaScript-yellow.svg)
 ![Image](https://img.shields.io/badge/Language-CoffeeScript-lightgrey.svg)
 ![Image](https://img.shields.io/badge/Language-LuaScript-blueviolet.svg)
