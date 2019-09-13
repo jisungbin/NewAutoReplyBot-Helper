@@ -52,7 +52,7 @@ replier.reply(@String content) : content를 Action이 replier인 방으로 보�
 ImageDB.getProfileImage() : 카카오톡에서 메세지를 받은 상대방의 프로필 사진을 Base64로 인코딩해서 리턴
 ImageDB.getPicture() : 카카오톡에서 가장 마지막으로 받은 사진을 Base64로 인코딩해서 리턴. (Default : null)
 
-※ ImageDB.getPicture() 사용시 `data parcel size 1541904 bytes` 라는 오류가 발생할 수 있습니다.<br>
+※ ImageDB.getPicture() 사용시 data parcel size ~~~ bytes 라는 오류가 발생할 수 있습니다.<br>
 이러한 경우는 사진의 Base64 값이 너무 길어서 발생하는 오류이니, 용량이 작은 사진으로 받으면 정상 작동 합니다.
 ```
 
