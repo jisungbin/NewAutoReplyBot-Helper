@@ -82,7 +82,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, package) {
 [[Relase]](https://github.com/sungbin5304/NewAutoReplyBot-Helper/releases)
 
 ## 플레이스토어 링크
-[[Playstore]](https://play.google.com/apps/testing/com.sungbin.kakaotalk.bot)
+[[Playstore]](https://play.google.com/store/apps/details?id=com.sungbin.reply.bot)
 
 ## 지원하는 메신저
 #### 2019.07.03 기준 작동 확인된 메신저들 목록
