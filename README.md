@@ -21,7 +21,7 @@
 ## 미리보기 이미지
 <div>
 <img src="https://raw.githubusercontent.com/sungbin5304/NewAutoReplyBot-Helper/master/IMAGE/screener_1562496049538.png" width="300" height="500">
-<img src="https://raw.githubusercontent.com/sungbin5304/NewAutoReplyBot-Helper/master/IMAGE/screener_1562496123021.png" width="300" height="500">
+<img src="https://raw.githubusercontent.com/sungbin5304/NewAutoReplyBot-Helper/master/IMAGE/screener_1568363700374.png" width="300" height="500">
 <img src="https://raw.githubusercontent.com/sungbin5304/NewAutoReplyBot-Helper/master/IMAGE/screener_1562496149897.png" width="300" height="500">
 <img src="https://raw.githubusercontent.com/sungbin5304/NewAutoReplyBot-Helper/master/IMAGE/screener_1562496170558.png" width="300" height="500">
 </div>
