@@ -16,9 +16,9 @@
 > `Context`를 반환해 줍니다.
 
 ```js
-@String Api.post(String adress, String data)
+@String Api.post(String adress, String name, String data)
 ```
-> `adress`에 `data`라는 내용의 post를 전송합니다.
+> `adress`에 `data`라는 내용의 post를 `name`이라는 이름으로 전송합니다.
 
 ```js
 @boolean Api.replyRoom(String room, String content)
