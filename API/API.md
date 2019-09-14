@@ -41,7 +41,8 @@
 ```js
 @String Api.getHtml(String adress)
 ```
-> `adress`의 `HTML`을 파싱해 반환해 줍니다.
+> `adress`의 `HTML`을 파싱해 반환해 줍니다.<br>
+※ `java.io.InputStreamReader`을 사용합니다! ※
 
 ```js
 @String Api.deleteHtml(String html)
@@ -144,7 +145,8 @@
 ```js
 @String Utils.getWebText(String adress)
 ```
-> `adress`의 `HTML`을 파싱해 반환해 줍니다.
+> `adress`의 `HTML`을 파싱해 반환해 줍니다.<br>
+※ `org.jsoup.Jsoup`을 사용합니다! ※
 
 # AppData
 ```js
