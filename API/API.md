@@ -192,6 +192,13 @@
 ```
 > `AppData API`로 작업한 앱 데이터를 초기화 합니다.
 
+# Bridge
+```js
+@String Bridge.getVariableValue(String scriptName, String variabaleName)
+```
+> 스크립트 `scriptName` 에서 `variabaleName` 라는 변수명을 가진 변수의 값을 `String` 타입으로 반환합니다.<br>
+※ 스크립트 이름에 확장자를 포함해야 합니다! Ex) Bridge.getVariableValue("테스트.js", "a"); ※
+
 # Image
 ```js
 @void Image.getXY()
