@@ -170,9 +170,9 @@
 만약 존재하지 않는다면 `_null`을 반환합니다.
 
 ```js
-@Boolean AppData.getBoolean(String name, Boolean _null)
+@boolean AppData.getBoolean(String name, boolean _null)
 ```
-> 앱 데이터에 `name`이라는 이름으로 저장된 `Boolean` 타입의 데이터를 불러옵니다.<br>
+> 앱 데이터에 `name`이라는 이름으로 저장된 `boolean` 타입의 데이터를 불러옵니다.<br>
 만약 존재하지 않는다면 `_null`을 반환합니다.
 
 ```js
