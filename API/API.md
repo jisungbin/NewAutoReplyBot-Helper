@@ -16,6 +16,18 @@
 > `Context`를 반환해 줍니다.
 
 ```js
+@boolean Api.replyRoom(String room, String msg)
+```
+> `room`이라는 방에 `msg`라는 메세지를 전송합니다.<br>
+전송 성공 여부를 `boolean`으로 반환합니다.
+
+```js
+@boolean Api.replyRoomShowAll(String room, String msg1, String msg2)
+```
+> `room`이라는 방에 `msg1`는 그냥 보이고, `msg2`는 전체보기 버튼을 눌러야 보이게 전송합니다.<br>
+전송 성공 여부를 `boolean`으로 반환합니다.
+
+```js
 @String Api.post(String adress, String name, String data)
 ```
 > `adress`에 `data`라는 내용의 post를 `name`이라는 이름으로 전송합니다.
@@ -129,6 +141,50 @@
 ```
 > `content`라는 내용을 복사합니다.
 
+# AppData
+```js
+@void AppData.putInt(String name, int value)
+```
+> 앱 데이터에 `name`이라는 이름으로 `int` 타입의 `value`라는 값을 가진 데이터를 저장합니다.
+
+```js
+@void AppData.putString(String name, String value)
+```
+> 앱 데이터에 `name`이라는 이름으로 `String` 타입의 `value`라는 값을 가진 데이터를 저장합니다.
+
+```js
+@void AppData.putBoolean(String name, Boolean value)
+```
+> 앱 데이터에 `name`이라는 이름으로 `Boolean` 타입의 `value`라는 값을 가진 데이터를 저장합니다.
+
+```js
+@int AppData.getInt(String name, int _null)
+```
+> 앱 데이터에 `name`이라는 이름으로 저장된 `int` 타입의 데이터를 불러옵니다.<br>
+만약 존재하지 않는다면 `_null`을 반환합니다.
+
+```js
+@String AppData.getString(String name, String _null)
+```
+> 앱 데이터에 `name`이라는 이름으로 저장된 `String` 타입의 데이터를 불러옵니다.<br>
+만약 존재하지 않는다면 `_null`을 반환합니다.
+
+```js
+@Boolean AppData.getBoolean(String name, Boolean _null)
+```
+> 앱 데이터에 `name`이라는 이름으로 저장된 `Boolean` 타입의 데이터를 불러옵니다.<br>
+만약 존재하지 않는다면 `_null`을 반환합니다.
+
+```js
+@void AppData.remove(String name)
+```
+> 앱 데이터에서 `name`이라는 이름을 가진 데이터를 제거합니다.
+
+```js
+@void AppData.clear()
+```
+> `AppData API`로 작업한 앱 데이터를 초기화 합니다.
+
 # Image
 ```js
 @void Image.getXY()
@@ -148,9 +204,11 @@
 ``` js
 @String[] School.getMeal(String area, String name, int year, int month)
 ```
-> `area`에 위치한 `name`이라는 학교를 찾아 `year`년 `month`월자 급식을 하루하루씩 배열에 담아 배열을 반환합니다.
+> `area`에 위치한 `name`이라는 학교를 찾아 `year`년 `month`월자 급식을 하루하루씩 배열에 담아 배열을 반환합니다.<br>
+오류가 날 경우 0번 index에 `false`를 담고, 1번 index에 오류 내용을 담습니다.
 
 ``` js
 @String[] School.getPlan(String area, String name, int year, int month)
 ```
-> `area`에 위치한 `name`이라는 학교를 찾아 `year`년 `month`월자 학사일정을 하루하루씩 배열에 담아 배열을 반환합니다.
+> `area`에 위치한 `name`이라는 학교를 찾아 `year`년 `month`월자 학사일정을 하루하루씩 배열에 담아 배열을 반환합니다.<br>
+오류가 날 경우 0번 index에 `false`를 담고, 1번 index에 오류 내용을 담습니다.
