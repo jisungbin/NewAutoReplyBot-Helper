@@ -141,6 +141,11 @@
 ```
 > `content`라는 내용을 복사합니다.
 
+```js
+@String Utils.getWebText(String adress)
+```
+> `adress`의 `HTML`을 파싱해 반환해 줍니다.
+
 # AppData
 ```js
 @void AppData.putInt(String name, int value)
