@@ -105,16 +105,27 @@
 ※ File.save와 File.read의 path 인자엔 첨부되어 있습니다. ※
 
 ```js
-@void File.save(String path, String content)
+@void File.createFolder(String path)
 ```
-> `path`이라는 경로에 `content`라는 내용을 가진 파일을 생성합니다.<br>
+> `path` 라는 경로에 폴더를 생성합니다.<br>
+사용 예시 : File.createFolder("AAA/BBB") - AAA라는 경로에 BBB라는 폴더를 생성
+
+```js
+@void File.write(String path, String content)
+```
+> `path` 라는 경로에 `content`라는 내용을 가진 파일을 생성합니다.<br>
 사용 예시 : File.save("BOT/ChatLog.log", "성빈 : 새자봇 많이 써주세요.");
 
 ```js
 @String File.read(String path, String _null)
 ```
-> `path`이라는 경로에 있는 파일을 읽어서 반환합니다. 만약 파일이 존재하지 않다면 `_null`을 반환합니다.<br>
+> `path` 라는 경로에 있는 파일을 읽어서 반환합니다. 만약 파일이 존재하지 않다면 `_null`을 반환합니다.<br>
 사용 예시 : File.read("BOT/ChatLog.log", "로그가 없습니다.");
+
+```js
+@void File.append(String path, String content)
+```
+> `path` 라는 경로에 있는 파일에 `content` 라는 내용을 덮어씁니다.
 
 ```js
 @void File.remove(String name)
