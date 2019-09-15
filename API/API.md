@@ -98,6 +98,7 @@
 > 현재 핸드폰이 충전중인지를 반환합니다.
 
 # File
+## File 대신에 FileStream 도 가능 (getSdcardPath()는 사용 불가)
 ```js
 @String File.getSdcardPath()
 ```
