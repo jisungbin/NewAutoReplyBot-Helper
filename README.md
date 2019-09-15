@@ -48,8 +48,8 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, package) {
 @replier
 replier.reply(String msg) : msg를 Action이 replier인 방으로 전송합니다.
 replier.reply(String room, String msg) : msg를 방 이름이 room 인 곳으로 전송합니다.
-replier.replyShowAll(String msg1, String msg2) : Action이 replier인 방에 msg1는 그냥 보이고, msg2는 전체보기 버튼을 눌러야 보이게 전송합니다.
-replier.replyShowAll(String room, String msg1, msg2) : room 이라는 방에 msg1는 그냥 보이고, msg2는 전체보기 버튼을 눌러야 보이게 전송합니다.
+replier.replyShowAll(String msg1, String msg2) : Notification.Action이 replier인 방에 msg1는 그냥 보이고, msg2는 전체보기 버튼을 눌러야 보이게 전송합니다.
+replier.replyShowAll(String room, String msg1, String msg2) : room 이라는 방에 msg1는 그냥 보이고, msg2는 전체보기 버튼을 눌러야 보이게 전송합니다.
 
 @ImageDB
 ImageDB.getProfileImage() : 카카오톡에서 메세지를 받은 상대방의 프로필 사진을 Base64로 인코딩해서 리턴
