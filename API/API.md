@@ -133,6 +133,37 @@
 ```
 > `name`이라는 경로에 있는 파일을 삭제합니다.
 
+# Black
+```js
+@void Black.addRoom(String room)
+```
+> 스크립트 실행 블랙리스트에 `room` 이라는 방을 추가합니다.
+
+```js
+@void Black.removeRoom(String room)
+```
+> 스크립트 실행 블랙리스트에서 `room` 이라는 방을 제거합니다.
+
+```js
+@void Black.addSender(String sender)
+```
+> 스크립트 실행 블랙리스트에 `sender` 라는 사용자를 추가합니다.
+
+```js
+@void Black.removeSender(String sender)
+```
+> 스크립트 실행 블랙리스트에서 `sender` 라는 사용자를 제거합니다.
+
+```js
+@String Black.getRoom()
+``` 
+> 스크립트 실행 블랙리스트 중에서 방 목록만 모아서 반환합니다.
+
+```js
+@String Black.getSender()
+``` 
+> 스크립트 실행 블랙리스트 중에서 사용자 목록만 모아서 반환합니다.
+
 # DataBase
 ```js
 @void DataBase.setDataBase(String name, String content)
